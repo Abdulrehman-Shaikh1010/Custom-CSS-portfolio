@@ -1,0 +1,122 @@
+.projects {
+    background-color:rgb(82, 80, 99);
+    padding: 3rem 1rem; /* Add padding for mobile */
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Show 3 cards per row on larger screens */
+    gap: 2rem;
+    padding: 1rem; /* Add padding to grid container */
+}
+
+.project-card {
+    padding: 2rem 1rem; /* Adjust padding for responsiveness */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1.5rem;
+    border: 3px solid white;
+    border-radius: 3rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    width: 100%; /* Ensure the card doesn't stretch too wide */
+}
+
+.project-card:hover {
+    background: linear-gradient(109.6deg, #333533 11.2%, #403d39 91.1%);
+    transform: translateY(-10px) scale(1.02);
+    border: 3px solid white;
+}
+
+.project-card .img {
+    width: 60vw; /* Adjust image width */
+    height: auto;
+    max-width: 200px; /* Limit image size */
+    border-radius: 1rem;
+}
+
+.project-card h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    font-family: Spartan;
+    background: linear-gradient(109.6deg, #d3989b 11.2%, #bc1b68 91.1%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.project-card p {
+    color: white;
+    font-size: 1rem; /* Adjust text size */
+}
+
+.section-title {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: Spartan;
+    text-align: center;
+    padding-bottom: 30px;
+    background: linear-gradient(109.6deg, #d3989b 11.2%, #bc1b68 91.1%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.img:hover {
+    transform: translateY(-10px) scale(1.02);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.img {
+    transition: 0.3s ease-in-out;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr); /* Show 2 cards per row for tablets */
+        gap: 1.5rem;
+    }
+
+    .project-card .img {
+        width: 50vw; /* Adjust image width for tablet and laptops */
+    }
+
+    .section-title {
+        font-size: 2rem; /* Smaller title size for medium screens */
+    }
+
+    .project-card h3 {
+        font-size: 1.25rem; /* Smaller font size for project title */
+    }
+}
+
+@media (max-width: 768px) {
+    .projects {
+        padding: 2rem 1rem; /* Adjust padding for mobile */
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr; /* Stack items vertically on smaller screens */
+    }
+
+    .project-card .img {
+        width: 80vw; /* Use more of the screen width for images */
+    }
+
+    .section-title {
+        font-size: 2.5rem; /* Smaller title size for mobile */
+    }
+
+    .project-card h3 {
+        font-size: 1.5rem; /* Smaller font size for project titles */
+    }
+
+    .project-card p {
+        font-size: 0.9rem; /* Adjust text size for mobile */
+    }
+}
