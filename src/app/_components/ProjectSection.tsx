@@ -14,7 +14,7 @@ const ProjectSection = () => {
           <div className='img'>
           <Link href='https://custom-css-website-nine.vercel.app/' target='_blank'>
             <Image
-            src='/pr1.jpg'
+            src='/Pr1.jpg'
             alt='Project1'
             width={200}
             height={200}
