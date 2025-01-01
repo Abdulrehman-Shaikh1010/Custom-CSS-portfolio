@@ -58,7 +58,7 @@ const HeroSection = () => {
           {/* Social Icons */}
           <div className="socials-icon">
             <div className="social-icon">
-              <Link href="https://www.linkedin.com/in/jasmine-sheikh-8116b62ba/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BVPlPU2QbTE2AdcMEJbyqoA%3D%3D" target="_blank">
+              <Link href="https://www.linkedin.com/in/abdulrehman-shaikh-0b64422b9/" target="_blank">
                 <FaLinkedinIn />
               </Link>
             </div>
@@ -68,17 +68,17 @@ const HeroSection = () => {
               </Link>
             </div>
             <div className="social-icon">
-              <Link href="https://github.com/jasmineshamim" target="_blank">
+              <Link href="https://github.com/Abdulrehman-Shaikh1010" target="_blank">
                 <TbBrandGithubFilled />
               </Link>
             </div>
             <div className="social-icon">
-              <Link href="https://www.facebook.com/profile.php?id=61556128057734" target="_blank">
+              <Link href="https://www.facebook.com/profile.php?id=61553115674141" target="_blank">
                 <FaFacebookF />
               </Link>
             </div>
             <div className="social-icon">
-              <Link href="https://www.facebook.com/profile.php?id=61556128057734" target="_blank">
+              <Link href="https://vercel.com/abdulrehman-shaikhs-projects" target="_blank">
                 <IoLogoVercel  className='vercel'/>
               </Link>
             </div>

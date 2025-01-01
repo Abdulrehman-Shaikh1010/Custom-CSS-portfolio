@@ -38,7 +38,7 @@ const ProjectSection = () => {
           <div className="img">
           <Link href='https://hackathon-template-8-steel.vercel.app/' target='_blank'>
             <Image
-            src='/pr22.jpg'
+            src='/pr2.jpg'
             alt='Project1'
             width={200}
             height={200}
