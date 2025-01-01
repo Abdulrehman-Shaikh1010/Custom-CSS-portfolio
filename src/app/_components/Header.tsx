@@ -16,7 +16,7 @@ const Header = () => {
     <header className="header">
       {/* Logo Section */}
       <div className="logo">
-        <Image src="/logoo.png" alt="Logo" width={50} height={0} />
+        <Image src="/Logoo.png" alt="Logo" width={50} height={50} />
       </div>
 
       {/* Navigation */}
